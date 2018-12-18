@@ -15,7 +15,7 @@
    Collection of static dictionary words.
 */
 
-var data = require('./dictionary-data');
+var data = require('./dictionary-browser');
 exports.init = function() {
   exports.dictionary = data.init();
 };
