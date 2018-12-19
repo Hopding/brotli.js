@@ -25,9 +25,6 @@
   "devDependencies": {
     "mocha": "^2.2.1"
   },
-  "browser": {
-    "./dec/dictionary-data.js": "./dec/dictionary-browser.js"
-  },
   "scripts": {
     "test": "mocha",
     "prepublish": "make"

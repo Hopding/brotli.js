@@ -8,7 +8,6 @@ var base64 = require('base64-js');
  * it's own dictionary. 😜
  */
 exports.init = function(BrotliDecompressBuffer) {
-  // var BrotliDecompressBuffer = require('./decode').BrotliDecompressBuffer;
   var compressed = base64.toByteArray(require('./dictionary.bin.js'));
   return BrotliDecompressBuffer(compressed);
 };

@@ -15,7 +15,7 @@
    Collection of static dictionary words.
 */
 
-var data = require('./dictionary-browser');
+var data = require('./dictionary-data-compressed');
 exports.init = function(BrotliDecompressBuffer) {
   exports.dictionary = data.init(BrotliDecompressBuffer);
 };
