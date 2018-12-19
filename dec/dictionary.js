@@ -16,8 +16,8 @@
 */
 
 var data = require('./dictionary-browser');
-exports.init = function() {
-  exports.dictionary = data.init();
+exports.init = function(BrotliDecompressBuffer) {
+  exports.dictionary = data.init(BrotliDecompressBuffer);
 };
 
 exports.offsetsByLength = new Uint32Array([
