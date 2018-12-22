@@ -3,10 +3,17 @@ This project is a fork of https://github.com/foliojs/brotli.js created for use i
 
 Listed below are changes that have been made in this fork:
 
-* Removed unused imports of the `fs` module ([cd0984d#2d28deb](https://github.com/Hopding/brotli.js/commit/cd0984d7debbfc3e68a1330cbbdce43f89562d3a#diff-2d28debfa8437e92c4c28e7c28e54ec1L2))
-* Always import the compressed dictionary data, whether in node or the browser ([cd0984d#c81cbd3](https://github.com/Hopding/brotli.js/commit/cd0984d7debbfc3e68a1330cbbdce43f89562d3a#diff-c81cbd3b2324d056c65f99b22ce700cfR18), [2a62381#b9cfc7f](https://github.com/Hopding/brotli.js/commit/2a623817f6bd8d1f7f528f69ac8ce8067b3383fb#diff-b9cfc7f2cdf78a7f4b91a753d10865a2L28))
-* Removed circular dependency so module can be bundled with rollup ([0350970#a60c93c](https://github.com/Hopding/brotli.js/commit/0350970de946950ce47c1948913827931d88fc11#diff-a60c93c22e22541b9a682c371e7ab9caR938), [0350970#2d28deb](https://github.com/Hopding/brotli.js/commit/0350970de946950ce47c1948913827931d88fc11#diff-2d28debfa8437e92c4c28e7c28e54ec1R10), [0350970#c81cbd3](https://github.com/Hopding/brotli.js/commit/0350970de946950ce47c1948913827931d88fc11#diff-c81cbd3b2324d056c65f99b22ce700cfR19))
-* Released to NPM as `@pdf-lib/brotli.js` ([130cea7](https://github.com/Hopding/brotli.js/commit/130cea7ebf011608946f35294863a557220680df))
+* Removed unused imports of the `fs` module
+  * [cd0984d#2d28deb](https://github.com/Hopding/brotli.js/commit/cd0984d7debbfc3e68a1330cbbdce43f89562d3a#diff-2d28debfa8437e92c4c28e7c28e54ec1L2)
+* Always import the compressed dictionary data, whether in node or the browser
+  * [cd0984d#c81cbd3](https://github.com/Hopding/brotli.js/commit/cd0984d7debbfc3e68a1330cbbdce43f89562d3a#diff-c81cbd3b2324d056c65f99b22ce700cfR18)
+  * [2a62381#b9cfc7f](https://github.com/Hopding/brotli.js/commit/2a623817f6bd8d1f7f528f69ac8ce8067b3383fb#diff-b9cfc7f2cdf78a7f4b91a753d10865a2L28)
+* Removed circular dependency so module can be bundled with rollup
+  * [0350970#a60c93c](https://github.com/Hopding/brotli.js/commit/0350970de946950ce47c1948913827931d88fc11#diff-a60c93c22e22541b9a682c371e7ab9caR938)
+  * [0350970#2d28deb](https://github.com/Hopding/brotli.js/commit/0350970de946950ce47c1948913827931d88fc11#diff-2d28debfa8437e92c4c28e7c28e54ec1R10)
+  * [0350970#c81cbd3](https://github.com/Hopding/brotli.js/commit/0350970de946950ce47c1948913827931d88fc11#diff-c81cbd3b2324d056c65f99b22ce700cfR19)
+* Released to NPM as `@pdf-lib/brotli.js`
+  * [130cea7](https://github.com/Hopding/brotli.js/commit/130cea7ebf011608946f35294863a557220680df)
 
 Also see
 * https://github.com/Hopding/fontkit
